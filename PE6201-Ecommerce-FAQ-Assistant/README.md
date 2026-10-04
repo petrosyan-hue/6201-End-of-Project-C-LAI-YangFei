@@ -1,4 +1,4 @@
-# 6201-A3-yangfei
+# 6201-End-of-Project-C-LAI-YangFei
 
 ## PE6201 End-of-Course Project
 
@@ -26,6 +26,7 @@ Cross-border e-commerce customers may ask simple support questions in different 
 ## Product and explainer documentation
 
 - Product documentation: `PRODUCT_DOCUMENTATION.md`
+- Code documentation: `CODE_DOCUMENTATION.md`
 - Data explainer: `data/README.md`
 - Evaluation explainer: `eval/README.md`
 
@@ -34,10 +35,24 @@ Cross-border e-commerce customers may ask simple support questions in different 
 Clone the repository, open the project folder, install the dependency, then run the web demo:
 
 ```bash
-git clone https://github.com/petrosyan-hue/6201-A3-yangfei.git
-cd 6201-A3-yangfei/PE6201-Ecommerce-FAQ-Assistant
+git clone https://github.com/petrosyan-hue/6201-End-of-Project-C-LAI-YangFei.git
+cd 6201-End-of-Project-C-LAI-YangFei/PE6201-Ecommerce-FAQ-Assistant
+python -m pip install -r requirements.txt
+python -m streamlit run web_app.py
+```
+
+If you are using macOS and `python` does not work, use:
+
+```bash
 python3 -m pip install -r requirements.txt
 python3 -m streamlit run web_app.py
+```
+
+If you do not use Git, you can also click `Code` → `Download ZIP`, unzip the project, open Terminal or PowerShell inside the `PE6201-Ecommerce-FAQ-Assistant` folder, and then run:
+
+```bash
+python -m pip install -r requirements.txt
+python -m streamlit run web_app.py
 ```
 
 After Streamlit starts, open the local URL printed in the terminal, usually:
@@ -46,36 +61,49 @@ After Streamlit starts, open the local URL printed in the terminal, usually:
 http://localhost:8501
 ```
 
-This is a local demo URL. It works on the computer running the code, not as a public website.
+If another Streamlit app is already using port 8501, Streamlit may show another local URL such as:
+
+```text
+http://localhost:8502
+```
+
+Open the URL shown in the terminal.
+
+If Streamlit asks for an email address on first launch, leave it blank and press Enter.
 
 ## How to run the command-line assistant
+
+```bash
+python app.py
+```
+
+On macOS, if `python` does not work, use:
 
 ```bash
 python3 app.py
 ```
 
-## How to run the web demo
+## How to run the evaluation harness
 
 ```bash
-python3 -m pip install -r requirements.txt
-python3 -m streamlit run web_app.py
+python eval/run_eval.py
 ```
 
-Example questions:
-
-```text
-Where is my money after I sent the item back?
-我的包裹丢了怎么办？
-¿Dónde descargo la factura?
-```
-
-## How to run the evaluation harness
+On macOS, if `python` does not work, use:
 
 ```bash
 python3 eval/run_eval.py
 ```
 
 The evaluation prints assistant results, keyword baseline results, language match, average latency, token estimates and estimated cost.
+
+## Example questions
+
+```text
+Where is my money after I sent the item back?
+我的包裹丢了怎么办？
+¿Dónde descargo la factura?
+```
 
 ## Project structure
 
@@ -94,14 +122,15 @@ The evaluation prints assistant results, keyword baseline results, language matc
 │   ├── eval_cases.json
 │   ├── README.md
 │   └── run_eval.py
+├── README.md
 ├── PRODUCT_DOCUMENTATION.md
-├── requirements.txt
-└── README.md
+├── CODE_DOCUMENTATION.md
+└── requirements.txt
 ```
 
 ## Notes
 
-This first version uses deterministic local retrieval and template answers. It does not require an API key, so it can run on another machine without paid services. The report can discuss a later LLM version as a trade-off: a model may improve natural phrasing and translation, but it also adds token cost, latency and hallucination risk.
+This first version uses deterministic local retrieval and template answers. It does not require an API key, so it can run on another machine without paid services.
 
 The web demo is a standalone Streamlit prototype, not a production store plugin. In a real system, the same answer workflow could sit behind a small website chat widget or API endpoint.
 
@@ -113,10 +142,15 @@ The latest evaluation uses 50 scripted cases over 50 simulated FAQ entries:
 
 ```text
 Assistant pass rate: 50/50 = 100%
+Assistant source accuracy: 50/50 = 100%
+Assistant content accuracy: 50/50 = 100%
 Assistant language match: 50/50 = 100%
 Assistant total estimated cost: $0.01555750
 
 Keyword baseline pass rate: 33/50 = 66%
+Keyword baseline source accuracy: 36/50 = 72%
+Keyword baseline content accuracy: 33/50 = 66%
 Keyword baseline language match: 50/50 = 100%
 Keyword baseline total estimated cost: $0.01467000
+```
 ```
