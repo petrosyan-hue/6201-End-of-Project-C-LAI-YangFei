@@ -1,0 +1,497 @@
+[
+  {
+    "id": "EVAL-001",
+    "question": "Can I return an item after two weeks?",
+    "expected_source_id": "FAQ-001",
+    "expected_language": "en",
+    "must_contain": [
+      "30 days",
+      "unused"
+    ]
+  },
+  {
+    "id": "EVAL-002",
+    "question": "商品已经拆封用了还能退吗？",
+    "expected_source_id": "FAQ-002",
+    "expected_language": "zh",
+    "must_contain": [
+      "未使用",
+      "30天"
+    ]
+  },
+  {
+    "id": "EVAL-003",
+    "question": "¿Puedo devolver un producto después de recibirlo?",
+    "expected_source_id": "FAQ-003",
+    "expected_language": "es",
+    "must_contain": [
+      "30 días",
+      "sin usar"
+    ]
+  },
+  {
+    "id": "EVAL-004",
+    "question": "Where is my money after I sent the item back?",
+    "expected_source_id": "FAQ-004",
+    "expected_language": "en",
+    "must_contain": [
+      "5 to 10",
+      "business days"
+    ]
+  },
+  {
+    "id": "EVAL-005",
+    "question": "退款一般多久到账？",
+    "expected_source_id": "FAQ-005",
+    "expected_language": "zh",
+    "must_contain": [
+      "5到10个工作日",
+      "检查"
+    ]
+  },
+  {
+    "id": "EVAL-006",
+    "question": "¿Cuántos días tarda el reembolso?",
+    "expected_source_id": "FAQ-006",
+    "expected_language": "es",
+    "must_contain": [
+      "5 a 10 días hábiles"
+    ]
+  },
+  {
+    "id": "EVAL-007",
+    "question": "How many working days does overseas delivery usually need?",
+    "expected_source_id": "FAQ-007",
+    "expected_language": "en",
+    "must_contain": [
+      "7 to 14",
+      "business days"
+    ]
+  },
+  {
+    "id": "EVAL-008",
+    "question": "国际物流通常要多久？",
+    "expected_source_id": "FAQ-008",
+    "expected_language": "zh",
+    "must_contain": [
+      "7到14个工作日"
+    ]
+  },
+  {
+    "id": "EVAL-009",
+    "question": "¿Cuánto tarda el envío internacional?",
+    "expected_source_id": "FAQ-009",
+    "expected_language": "es",
+    "must_contain": [
+      "7 a 14 días hábiles"
+    ]
+  },
+  {
+    "id": "EVAL-010",
+    "question": "The parcel says delivered but nothing is at my door.",
+    "expected_source_id": "FAQ-010",
+    "expected_language": "en",
+    "must_contain": [
+      "order number",
+      "tracking number"
+    ]
+  },
+  {
+    "id": "EVAL-011",
+    "question": "我的包裹显示已送达但没收到怎么办？",
+    "expected_source_id": "FAQ-011",
+    "expected_language": "zh",
+    "must_contain": [
+      "订单号",
+      "物流单号"
+    ]
+  },
+  {
+    "id": "EVAL-012",
+    "question": "¿Qué necesito si mi paquete aparece entregado pero no llegó?",
+    "expected_source_id": "FAQ-012",
+    "expected_language": "es",
+    "must_contain": [
+      "número de pedido",
+      "número de seguimiento"
+    ]
+  },
+  {
+    "id": "EVAL-013",
+    "question": "Can I stop the order before it leaves the warehouse?",
+    "expected_source_id": "FAQ-013",
+    "expected_language": "en",
+    "must_contain": [
+      "before",
+      "shipped"
+    ]
+  },
+  {
+    "id": "EVAL-014",
+    "question": "订单发货后还能取消吗？",
+    "expected_source_id": "FAQ-014",
+    "expected_language": "zh",
+    "must_contain": [
+      "发货前",
+      "退货流程"
+    ]
+  },
+  {
+    "id": "EVAL-015",
+    "question": "¿Puedo cancelar mi pedido?",
+    "expected_source_id": "FAQ-015",
+    "expected_language": "es",
+    "must_contain": [
+      "antes del envío"
+    ]
+  },
+  {
+    "id": "EVAL-016",
+    "question": "Will the store pay my border tax?",
+    "expected_source_id": "FAQ-016",
+    "expected_language": "en",
+    "must_contain": [
+      "Customers",
+      "import taxes"
+    ]
+  },
+  {
+    "id": "EVAL-017",
+    "question": "关税是谁承担？",
+    "expected_source_id": "FAQ-017",
+    "expected_language": "zh",
+    "must_contain": [
+      "顾客承担",
+      "关税"
+    ]
+  },
+  {
+    "id": "EVAL-018",
+    "question": "¿Quién paga los impuestos de importación?",
+    "expected_source_id": "FAQ-018",
+    "expected_language": "es",
+    "must_contain": [
+      "cliente",
+      "impuestos de importación"
+    ]
+  },
+  {
+    "id": "EVAL-019",
+    "question": "Can I pay with a wallet instead of a card?",
+    "expected_source_id": "FAQ-019",
+    "expected_language": "en",
+    "must_contain": [
+      "credit cards",
+      "digital wallets"
+    ]
+  },
+  {
+    "id": "EVAL-020",
+    "question": "可以用电子钱包付款吗？",
+    "expected_source_id": "FAQ-020",
+    "expected_language": "zh",
+    "must_contain": [
+      "电子钱包",
+      "结账页面"
+    ]
+  },
+  {
+    "id": "EVAL-021",
+    "question": "¿Aceptan tarjetas de crédito?",
+    "expected_source_id": "FAQ-021",
+    "expected_language": "es",
+    "must_contain": [
+      "tarjetas de crédito"
+    ]
+  },
+  {
+    "id": "EVAL-022",
+    "question": "Does the one-year cover include factory faults?",
+    "expected_source_id": "FAQ-022",
+    "expected_language": "en",
+    "must_contain": [
+      "12-month",
+      "manufacturing defects"
+    ]
+  },
+  {
+    "id": "EVAL-023",
+    "question": "电子产品保修多久？",
+    "expected_source_id": "FAQ-023",
+    "expected_language": "zh",
+    "must_contain": [
+      "12个月",
+      "制造缺陷"
+    ]
+  },
+  {
+    "id": "EVAL-024",
+    "question": "¿La garantía cubre daños por mal uso?",
+    "expected_source_id": "FAQ-024",
+    "expected_language": "es",
+    "must_contain": [
+      "mal uso",
+      "No cubre"
+    ]
+  },
+  {
+    "id": "EVAL-025",
+    "question": "I typed the wrong house address.",
+    "expected_source_id": "FAQ-025",
+    "expected_language": "en",
+    "must_contain": [
+      "before",
+      "shipped"
+    ]
+  },
+  {
+    "id": "EVAL-026",
+    "question": "发货前可以修改收货地址吗？",
+    "expected_source_id": "FAQ-026",
+    "expected_language": "zh",
+    "must_contain": [
+      "发货前",
+      "修改收货地址"
+    ]
+  },
+  {
+    "id": "EVAL-027",
+    "question": "My discount does not apply at checkout.",
+    "expected_source_id": "FAQ-027",
+    "expected_language": "en",
+    "must_contain": [
+      "expired",
+      "specific products"
+    ]
+  },
+  {
+    "id": "EVAL-028",
+    "question": "优惠码不能和其他促销一起用吗？",
+    "expected_source_id": "FAQ-028",
+    "expected_language": "zh",
+    "must_contain": [
+      "促销",
+      "无法生效"
+    ]
+  },
+  {
+    "id": "EVAL-029",
+    "question": "Can I swap this shirt for a larger size?",
+    "expected_source_id": "FAQ-029",
+    "expected_language": "en",
+    "must_contain": [
+      "return",
+      "new purchase"
+    ]
+  },
+  {
+    "id": "EVAL-030",
+    "question": "When can I speak to customer service?",
+    "expected_source_id": "FAQ-030",
+    "expected_language": "en",
+    "must_contain": [
+      "Monday to Friday",
+      "Singapore time"
+    ]
+  },
+  {
+    "id": "EVAL-031",
+    "question": "The box arrived broken and the product is cracked.",
+    "expected_source_id": "FAQ-031",
+    "expected_language": "en",
+    "must_contain": [
+      "48 hours",
+      "photos"
+    ]
+  },
+  {
+    "id": "EVAL-032",
+    "question": "收到的东西坏了，需要提供什么？",
+    "expected_source_id": "FAQ-032",
+    "expected_language": "zh",
+    "must_contain": [
+      "48小时",
+      "照片"
+    ]
+  },
+  {
+    "id": "EVAL-033",
+    "question": "I ordered black shoes but got a blue bag.",
+    "expected_source_id": "FAQ-033",
+    "expected_language": "en",
+    "must_contain": [
+      "order number",
+      "photo"
+    ]
+  },
+  {
+    "id": "EVAL-034",
+    "question": "¿Qué hago si me llegó otro producto?",
+    "expected_source_id": "FAQ-034",
+    "expected_language": "es",
+    "must_contain": [
+      "número de pedido",
+      "foto"
+    ]
+  },
+  {
+    "id": "EVAL-035",
+    "question": "Only half of my order came today.",
+    "expected_source_id": "FAQ-035",
+    "expected_language": "en",
+    "must_contain": [
+      "separate shipments",
+      "tracking numbers"
+    ]
+  },
+  {
+    "id": "EVAL-036",
+    "question": "我的订单少了一件，是不是分开发货？",
+    "expected_source_id": "FAQ-036",
+    "expected_language": "zh",
+    "must_contain": [
+      "分开发货",
+      "多个物流单号"
+    ]
+  },
+  {
+    "id": "EVAL-037",
+    "question": "I bought it before release. When will it leave?",
+    "expected_source_id": "FAQ-037",
+    "expected_language": "en",
+    "must_contain": [
+      "release date",
+      "product page"
+    ]
+  },
+  {
+    "id": "EVAL-038",
+    "question": "¿Cuándo sale un artículo comprado en preventa?",
+    "expected_source_id": "FAQ-038",
+    "expected_language": "es",
+    "must_contain": [
+      "fecha de lanzamiento",
+      "página del producto"
+    ]
+  },
+  {
+    "id": "EVAL-039",
+    "question": "I cannot sign in to see my orders.",
+    "expected_source_id": "FAQ-039",
+    "expected_language": "en",
+    "must_contain": [
+      "password reset",
+      "account email"
+    ]
+  },
+  {
+    "id": "EVAL-040",
+    "question": "我登不上账号，怎么看订单？",
+    "expected_source_id": "FAQ-040",
+    "expected_language": "zh",
+    "must_contain": [
+      "密码重置",
+      "账号邮箱"
+    ]
+  },
+  {
+    "id": "EVAL-041",
+    "question": "Where can I download a receipt for my company?",
+    "expected_source_id": "FAQ-041",
+    "expected_language": "en",
+    "must_contain": [
+      "order history",
+      "billing details"
+    ]
+  },
+  {
+    "id": "EVAL-042",
+    "question": "¿Dónde descargo la factura?",
+    "expected_source_id": "FAQ-042",
+    "expected_language": "es",
+    "must_contain": [
+      "historial de pedidos",
+      "facturación"
+    ]
+  },
+  {
+    "id": "EVAL-043",
+    "question": "Can my voucher and gift balance be used together?",
+    "expected_source_id": "FAQ-043",
+    "expected_language": "en",
+    "must_contain": [
+      "Gift cards",
+      "coupon"
+    ]
+  },
+  {
+    "id": "EVAL-044",
+    "question": "礼品卡能不能叠加优惠码？",
+    "expected_source_id": "FAQ-044",
+    "expected_language": "zh",
+    "must_contain": [
+      "礼品卡",
+      "优惠码"
+    ]
+  },
+  {
+    "id": "EVAL-045",
+    "question": "Can I delete my data, or do you keep records?",
+    "expected_source_id": "FAQ-045",
+    "expected_language": "en",
+    "must_contain": [
+      "data deletion",
+      "retained"
+    ]
+  },
+  {
+    "id": "EVAL-046",
+    "question": "My card was declined and no order appeared.",
+    "expected_source_id": "FAQ-047",
+    "expected_language": "en",
+    "must_contain": [
+      "bank rejection",
+      "No order"
+    ]
+  },
+  {
+    "id": "EVAL-047",
+    "question": "Are these original branded products?",
+    "expected_source_id": "FAQ-049",
+    "expected_language": "en",
+    "must_contain": [
+      "approved suppliers",
+      "authenticity"
+    ]
+  },
+  {
+    "id": "EVAL-048",
+    "question": "Can you recommend the best laptop for gaming?",
+    "expected_source_id": null,
+    "expected_language": "en",
+    "must_contain": [
+      "cannot answer",
+      "human support"
+    ]
+  },
+  {
+    "id": "EVAL-049",
+    "question": "我的 refund 什么时候 arrive?",
+    "expected_source_id": null,
+    "expected_language": "en",
+    "must_contain": [
+      "detected mixed languages",
+      "continue answering you"
+    ]
+  },
+  {
+    "id": "EVAL-050",
+    "question": "我想知道我的 exact refund status。",
+    "expected_source_id": null,
+    "expected_language": "en",
+    "must_contain": [
+      "detected mixed languages",
+      "continue answering you"
+    ]
+  }
+]
