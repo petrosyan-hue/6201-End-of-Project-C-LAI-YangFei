@@ -105,6 +105,8 @@ This first version uses deterministic local retrieval and template answers. It d
 
 The web demo is a standalone Streamlit prototype, not a production store plugin. In a real system, the same answer workflow could sit behind a small website chat widget or API endpoint.
 
+If Streamlit asks for an email address on first launch, leave it blank and press Enter.
+
 ## Current measured result
 
 The latest evaluation uses 50 scripted cases over 50 simulated FAQ entries:
